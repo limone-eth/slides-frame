@@ -1,4 +1,4 @@
 export const BASE_URL =
   process.env.NODE_ENV === "production"
-    ? "https://your-frame.website.com"
+    ? "https://slides-frame.vercel.app/"
     : "http://localhost:3001";
