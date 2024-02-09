@@ -62,7 +62,7 @@ export default async function Home({
         state={state}
         previousFrame={previousFrame}
       >
-        <FrameImage src={`${BASE_URL}/slide-${state.page}.png`} />
+        <FrameImage src={`${BASE_URL}/slide-${state.page}.jpeg`} />
         {state.page !== 1 ? (
           <FrameButton onClick={dispatch}>←</FrameButton>
         ) : null}
